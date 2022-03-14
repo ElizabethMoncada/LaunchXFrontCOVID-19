@@ -1,0 +1,346 @@
+* {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.trianguloi {
+  width: 120px;
+  height: 0px;
+  border-right: 60px solid transparent;
+  border-left: 60px solid transparent;
+  border-top: 70px solid #eef6fd;
+  margin-top: 200px;
+  display: flex;
+  margin-top: -20px;
+  margin-left: 70px;
+  position: absolute;
+}
+
+li a {
+  display: block;
+  color: rgb(129, 126, 126);
+  text-align: center;
+  padding: 10px 10px;
+
+  text-decoration: none;
+}
+ul li:last-child a {
+  background-color: #2260d3;
+  color: white;
+  border-radius: 5px;
+  width: 100px;
+  margin-left: 57px;
+}
+ul li:first-child a {
+  display: flex;
+  padding-right: 50px;
+  margin: 0px 10px;
+}
+
+/* Change the link color to #111 (black) on hover */
+.btnenviar {
+  background-color: #2766db;
+  color: white;
+  width: 100px;
+  height: 30px;
+  border-radius: 3px;
+  box-shadow: 0px 0px 20px #2260d3;
+  border: none;
+  margin-left: 70px;
+}
+h4 {
+  color: #1052ce;
+  display: flex;
+  justify-content: flex-start;
+  height: 20px;
+  margin-right: 180px;
+}
+ul {
+  list-style: none; /* quita los puntos */
+  display: flex;
+  margin-right: 90px;
+}
+.contenedor {
+  padding: 0 4rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-evenly;
+
+  font-size: x-large;
+}
+
+.p1 {
+  font-size: 40px;
+  color: #08255c;
+  width: 50%;
+  height: 20px;
+  text-align: center;
+  margin: 90px;
+}
+.p {
+  color: grey;
+  margin: 150px;
+  width: 50%;
+  height: 100px;
+}
+.vacunarme {
+  text-align: left;
+  margin-left: 100px;
+  color: #082c72;
+  margin-top: 50px;
+}
+.pvacunarme {
+  color: grey;
+  margin: 100px;
+  width: 30%;
+  height: 100px;
+}
+.img {
+  margin: 10px;
+  float: right;
+  width: 700px;
+  height: 1000px;
+  padding-top: 1px;
+}
+
+h3 {
+  width: 100;
+  height: 50px;
+  margin-left: 180px;
+  color: #797f8a;
+}
+
+.derecha {
+  background-color: #4a85fc;
+  height: 120vh;
+  width: 50%;
+}
+.izquierda {
+  width: 50%;
+  height: 100vh;
+}
+#pantalla-dividida {
+  display: flex;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.pi {
+  flex-direction: row;
+}
+.div2 {
+  width: 80%;
+  height: 50px;
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: -50px;
+  text-align: center;
+  color: #8e9299;
+}
+div p i {
+  color: rgb(255, 239, 10);
+  box-shadow: 0px 0px 20px yellow;
+}
+
+.ps {
+  width: 80%;
+  height: 90px;
+  background-color: rgb(255, 255, 255);
+  opacity: 0.93;
+  margin-left: 400px;
+  z-index: 2;
+
+  color: #1f57c0;
+  display: flex;
+}
+.t {
+  text-align: center;
+}
+.dh {
+  width: 49.9%;
+  height: 9px;
+  background-color: #aec6f3;
+  display: flex;
+  padding: 50px;
+  position: absolute;
+  z-index: -1;
+  margin-left: 760px;
+}
+
+.cuadro {
+  width: 18%;
+  /*  background: linear-gradient(rgb(255, 255, 255) 0%, rgb(245, 241, 241) 35%); */
+  margin-left: 20px;
+  box-shadow: 5px 5px 5px #fdf9f9;
+  text-align: left;
+}
+.h2cuadro {
+  color: #0c3891;
+  font-size: large;
+}
+
+.cuadro:hover {
+  box-shadow: 10px 10px 10px #a8a8a8;
+}
+.beneficios {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  text-align: center;
+}
+.pantalladiv {
+  display: flex;
+}
+.izq2 {
+  width: 50%;
+  height: 155vh;
+}
+.der2 {
+  height: 155vh;
+  width: 50%;
+}
+.preparativos {
+  color: #082c72;
+  margin-top: 80px;
+}
+.ppreparativos {
+  color: gray;
+  width: 70%;
+}
+.cuadro2 {
+  background-color: #437ef3;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 390px;
+  margin-left: 100px;
+}
+.img2 {
+  width: 90%;
+  display: flex;
+  position: static;
+  z-index: 1;
+  margin-top: -100px;
+}
+.acor {
+  height: 100px;
+  width: 50%;
+  margin-top: 180px;
+  color: #95979c;
+}
+.izq3 {
+  width: 50%;
+}
+.der3 {
+  width: 50%;
+}
+.cuadros3 {
+  width: 50%;
+
+  align-items: center;
+  justify-content: center;
+}
+.emergencia :hover {
+  box-shadow: 5px 5px 5px #928e8e;
+}
+.emergencia i {
+  color: rgb(59, 57, 204);
+  box-shadow: none;
+  font-size: 30px;
+}
+.cuadro3 {
+  background-color: #437ef3;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 200px;
+  margin-left: 60px;
+}
+.img3 {
+  display: flex;
+  width: 100%;
+  position: static;
+  z-index: 1;
+  margin-top: -100px;
+}
+
+.emergencia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 88%;
+  height: 50px;
+  margin-left: 80px;
+  margin-top: 100px;
+  flex-wrap: wrap;
+}
+.titulo3 {
+  width: 60%;
+  text-align: justify;
+  margin-left: 200px;
+}
+
+.pemertitulo {
+  color: #082c72;
+  font-size: xx-large;
+  text-align: justify;
+}
+
+.emergencia .cuadros3 button {
+  background-color: #eef3fc;
+  width: 50%;
+  border: none;
+  border-radius: 2px;
+  color: #0c3891;
+}
+
+.footdiv {
+  display: flex;
+}
+.footerder {
+  width: 55%;
+  display: flex;
+  justify-content: space-evenly;
+  color: #797f8a;
+  margin-top: 50px;
+}
+.footerizq {
+  display: flex;
+  color: #797f8a;
+  margin-top: 55px;
+}
+
+.finalvacunas {
+  width: 20%;
+}
+.footfon {
+  width: 100%;
+  background-color: #eaf1fd;
+  margin-top: 180px;
+  position: absolute;
+  z-index: -2;
+}
+.vacunasfinal {
+  color: #3665bd;
+  align-content: center;
+}
+.derechos {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  color: #797f8a;
+}
+.triangulo {
+  width: 0;
+  height: 0;
+  border-right: 130px solid transparent;
+  border-bottom: 130px solid rgb(234, 234, 255);
+  border-left: 130px solid transparent;
+  position: absolute;
+  z-index: -1;
+  margin-top: -90px;
+  margin-right: -800px;
+}
